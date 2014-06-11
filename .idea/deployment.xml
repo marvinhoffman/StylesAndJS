@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="localhost - stylesandjs">
+  <component name="PublishConfigData" autoUpload="Always" serverName="localhost - stylesandjs" uploadOnCheckin="7d4755d9-1c2d-4f15-9571-81223f5016ec">
     <serverData>
       <paths name="localhost - stylesandjs">
         <serverdata>
@@ -10,6 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="localhost - stylesandjs" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
