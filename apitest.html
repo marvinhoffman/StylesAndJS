@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="AngularJS/angular.js"></script>
+    <script src="js/lib/appStart.js"></script>
+</head>
+<body ng-app="appStart">
+<div class="container" ng-controller="AppStartCtrl">
+    <div>
+        <h1>{{appStartVar}}</h1>
+        <input type="text" ng-model="txtInput">
+        <div>
+            <h3>{{txtInput}}</h3>
+        </div>
+        <div class="row" ng-repeat="dataRows in productsData">
+            <div class="col-md-12">Product Name: {{dataRows.Name}}</div>
+        </div>
+    </div>
+    <!--<div>{{productsData}}</div>-->
+</div>
+</body>
+</html>
