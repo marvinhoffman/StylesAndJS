@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Drag & Drop with AngularJS</title>
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap-theme.css"/>
+    <script src="assets/AngularJS/angular.js"></script><!-- include the uuid service as well as the directive -->
+    <script src="js/lib/dragdrop.js"></script>
+    <style type="text/css">
+        .bin {
+            min-height: 150px;
+            min-width: 150px;
+            float: left;
+            border: 1px solid red;
+            padding: 20px;
+        }
+        .item {
+            min-height: 150px;
+            min-width: 150px;
+            background: blue;
+            float: right;
+        }
+        .drag {
+            opacity: 0.5;
+        }
+        .over {
+            background: red;
+        }
+    </style>
+</head>
+<body ng-app="dragDrop" ng-controller="DragDropCtrl">
+    <div class="bin" droppable drop="handleDrop()"></div>
+    <div class="item" id="item1" draggable></div>
+</body>
+</html>
