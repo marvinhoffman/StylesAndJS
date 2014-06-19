@@ -3,9 +3,11 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Drag & Drop with AngularJS</title>
-    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap-theme.css"/>
-    <script src="assets/AngularJS/angular.js"></script><!-- include the uuid service as well as the directive -->
+    <link href="assets/Bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/Bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="assets/AngularJS/angular.js"></script>
+    <script src="js/bootstrap.js"></script>
+
     <script src="js/lib/dragdrop.js"></script>
     <style type="text/css">
         .bin {
@@ -30,7 +32,26 @@
     </style>
 </head>
 <body ng-app="dragDrop" ng-controller="DragDropCtrl">
-    <div class="bin" droppable drop="handleDrop()"></div>
-    <div class="item" id="item1" draggable></div>
+    <div class="container">
+        <h1><a href="#">Bootstrap Site</a></h1>
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="userinterface.html">User Interface Concepts</a></li>
+                        <li class="active"><a href="dragdrop.html">Drag and Drop</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- END navbar -->
+        <div class="bin" droppable drop="handleDrop()"></div>
+        <div class="item" id="item1" draggable></div>
+    </div>
 </body>
 </html>
