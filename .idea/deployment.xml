@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="localhost - stylesandjs" uploadOnCheckin="7d4755d9-1c2d-4f15-9571-81223f5016ec">
+  <component name="PublishConfigData" autoUpload="Always" serverName="localhost - StylesAndJS" uploadOnCheckin="7d4755d9-1c2d-4f15-9571-81223f5016ec">
+    <serverData>
+      <paths name="localhost - MarvinLCHoffman">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/StylesAndJS" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="localhost - StylesAndJS">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/StylesAndJS" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
     <option name="myUploadOnCheckinName" value="localhost - stylesandjs" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
